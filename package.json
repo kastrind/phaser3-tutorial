@@ -2,13 +2,14 @@
   "name": "phaser_tutorial",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "part3.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --config ./bs-config.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "http-server": "^14.1.1"
+    "browser-sync": "^2.29.3"
   }
 }
